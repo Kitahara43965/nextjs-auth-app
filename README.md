@@ -12,7 +12,7 @@ NEXTAUTH_SECRET=<br>
 NEXTAUTH_URL=http://localhost:3000<br>
 ここで、NEXTAUTH_SECRETの値は<br>
 $ openssl rand -base64 32<br>
-と入力して取得します。<br>
+と入力して値を取得します。<br>
 NEXTAUTH_SECRET=“(取得した値)”<br>
 とします。<br>
 (5) データ初期化<br>
