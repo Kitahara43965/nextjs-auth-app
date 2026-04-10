@@ -1,5 +1,5 @@
 mac版です<br>
-$はターミナルに入力する内容です。
+$はターミナルに入力する内容です。<br>
 (1) gitcloneします。<br>
 $ git clone git@github.com:Kitahara43965/nextjs-auth-app.git<br>
 (2) nextjs-auth-appディレクトリに移動<br>
@@ -16,7 +16,9 @@ $ openssl rand -base64 32<br>
 NEXTAUTH_SECRET=“(取得した値)”<br>
 とします。<br>
 (5) データ初期化<br>
-$npx prisma migrate reset
+$npx prisma migrate reset<br>
 で初期化します。<br>
+Are you sure you want to reset your database? All data will be lost.<br>
+の質問には小文字でyと入力します。<br>
 (6) サーバー立ち上げ <br>
 $ npm run devでサーバーを立ち上げます。<br>
