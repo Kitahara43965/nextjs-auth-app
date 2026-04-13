@@ -6,8 +6,8 @@ $ git clone git@github.com:Kitahara43965/nextjs-auth-app.git<br>
 $ cd nextjs-auth-app<br>
 (3) nextをインストールします<br>
 $ npm install<br>
-(4) mysql起動
-$ brew services start mysql
+(4) mysql起動<br>
+$ brew services start mysql<br>
 (5) プロジェクト直下に.envファイルを作成します。.envファイルに下記を記載します。<br>
 DATABASE_URL="mysql://root:password@localhost:3306/auth_app"<br>
 NEXTAUTH_SECRET=<br>
