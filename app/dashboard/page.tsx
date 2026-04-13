@@ -29,7 +29,7 @@ export default function DashboardPage() {
       <h1 className="text-3xl font-bold mb-4">Dashboard</h1>
 
       <p className="text-lg mb-6">
-        ようこそ、<span className="font-semibold">{session?.user?.email}</span>{" "}
+        ようこそ、<span className="font-semibold">{session?.user?.name}</span>{" "}
         さん！
       </p>
 
