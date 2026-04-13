@@ -25,6 +25,7 @@ Are you sure you want to reset your database? All data will be lost.<br>
 の質問には小文字でyと入力します。<br>
 (7) サーバー立ち上げ <br>
 $ npm run devでサーバーを立ち上げます。<br>
+<br>
 登録画面：localhost:3000/register<br>
 ログイン画面： localhost:3000/login<br>
 ダッシュボード画面：localhost:3000/dashboard<br>
