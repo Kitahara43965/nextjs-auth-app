@@ -18,7 +18,6 @@ $ openssl rand -base64 32<br>
 NEXTAUTH_SECRET="(取得した値)"<br>
 とします。<br>
 (6) データ初期化<br>
-$ npx prisma generate<br>
 $ npx prisma migrate reset<br>
 で初期化します。<br>
 Are you sure you want to reset your database? All data will be lost.<br>
