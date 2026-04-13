@@ -33,11 +33,11 @@ export default function DashboardPage() {
         さん！
       </p>
 
-      <LogoutButton />
-
       <div className="mt-8 text-blue-500 text-3xl font-bold">
         よろしくお願いします
       </div>
+
+      <LogoutButton />
     </div>
   );
 }
