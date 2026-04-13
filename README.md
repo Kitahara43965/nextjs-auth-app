@@ -1,6 +1,6 @@
 mac版です<br>
 $はターミナルに入力する内容です。<br>
-(1) gitcloneします。<br>
+(1) git cloneします。<br>
 $ git clone git@github.com:Kitahara43965/nextjs-auth-app.git<br>
 (2) nextjs-auth-appディレクトリに移動<br>
 $ cd nextjs-auth-app<br>
