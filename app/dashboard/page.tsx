@@ -33,8 +33,8 @@ export default function DashboardPage() {
         さん！
       </p>
 
-      <div className="mt-8 text-blue-500 text-3xl font-bold">
-        よろしくお願いします
+      <div className="mt-5 mb-5 text-blue-500 text-3xl font-bold">
+        よろしくお願いします。
       </div>
 
       <LogoutButton />
